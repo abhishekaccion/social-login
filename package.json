@@ -1,55 +1,58 @@
 {
-	"author": {
-		"name": "Julien Loutre",
-		"email": "julien@twenty-six-medias.com",
-		"url": "http://www.twenty-six-medias.com/"
-	},
-	"name": "social-login",
-	"description": "social-login",
-	"version": "0.2.4",
-	"contributors": [{
-		"name": "Pagevamp",
-		"email": "julien@pagevamp.com"
-	}],
-	"homepage": "https://github.com/26medias/social-login",
-	"licenses": [
-	{
-		"type": "MIT",
-		"url": "https://raw.github.com/26medias/social-login/master/LICENSE"
-	}
-	],
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/26medias/social-login.git"
-	},
-	"main": "social-login.js",
-	"engines": {
-		"node": "*"
-	},
-	"dependencies": {
-		"toolset": 				"latest",
-		"underscore": 			"latest",
-		"passport":		"latest",
-		"passport-github":		"latest",
-		"passport-youtube-v3":		"latest",
-		"passport-google":		"latest",
-		"passport-twitter":		"latest",
-		"passport-facebook":	"latest",
-		"passport-linkedin":	"latest",
-		"passport-youtube":		"latest",
-		"passport-instagram":	"latest",
-		"passport-google":		"latest",
-		"passport-amazon":		"latest",
-		"passport-foursquare":	"latest",
-		"passport-imgur":		"latest",
-		"passport-meetup":		"latest",
-		"passport-tumblr":		"latest",
-		"passport-wordpress":	"latest",
-		"passport-dropbox-oauth2":		"latest"
-	},
-	"devDependencies": {},
-	"readmeFilename": "README.md",
-	"bugs": {
-		"url": "https://github.com/26medias/social-login/issues"
-	}
+  "author": {
+    "name": "Julien Loutre",
+    "email": "julien@twenty-six-medias.com",
+    "url": "http://www.twenty-six-medias.com/"
+  },
+  "name": "social-login",
+  "description": "social-login",
+  "version": "0.2.4",
+  "contributors": [
+    {
+      "name": "Pagevamp",
+      "email": "julien@pagevamp.com"
+    }
+  ],
+  "homepage": "https://github.com/26medias/social-login",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/26medias/social-login/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/26medias/social-login.git"
+  },
+  "main": "social-login.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "passport": "latest",
+    "passport-amazon": "latest",
+    "passport-dropbox-oauth2": "latest",
+    "passport-facebook": "latest",
+    "passport-foursquare": "latest",
+    "passport-github": "latest",
+    "passport-google": "latest",
+    "passport-google-oauth": "^1.0.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-imgur": "latest",
+    "passport-instagram": "latest",
+    "passport-linkedin": "latest",
+    "passport-meetup": "latest",
+    "passport-tumblr": "latest",
+    "passport-twitter": "latest",
+    "passport-wordpress": "latest",
+    "passport-youtube": "latest",
+    "passport-youtube-v3": "latest",
+    "toolset": "latest",
+    "underscore": "latest"
+  },
+  "devDependencies": {},
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/26medias/social-login/issues"
+  }
 }
